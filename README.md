@@ -2,48 +2,48 @@
 
 Une application Java complète pour la gestion de commandes avec trois entités principales : Clients, Articles et Commandes.
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 ### Gestion des Clients
-- ✅ Ajouter un nouveau client
-- ✅ Modifier les informations d'un client
-- ✅ Activer/Désactiver un client
-- ✅ Lister tous les clients
-- ✅ Rechercher un client
-- ✅ Consulter les détails d'un client
+-  Ajouter un nouveau client
+-  Modifier les informations d'un client
+-  Activer/Désactiver un client
+-  Lister tous les clients
+-  Rechercher un client
+-  Consulter les détails d'un client
 
 ### Gestion des Articles
-- ✅ Ajouter un nouvel article
-- ✅ Modifier un article existant
-- ✅ Activer/Désactiver un article
-- ✅ Gérer le stock (modification, alerte stock faible)
-- ✅ Lister tous les articles
-- ✅ Rechercher un article
-- ✅ Consulter les détails d'un article
+-  Ajouter un nouvel article
+-  Modifier un article existant
+-  Activer/Désactiver un article
+-  Gérer le stock (modification, alerte stock faible)
+-  Lister tous les articles
+-  Rechercher un article
+-  Consulter les détails d'un article
 
 ### Gestion des Commandes
-- ✅ Effectuer une nouvelle commande
-- ✅ Valider une commande
-- ✅ Annuler une commande
-- ✅ Modifier une commande
-- ✅ Lister toutes les commandes
-- ✅ Consulter les détails d'une commande
-- ✅ Statistiques des commandes
+-  Effectuer une nouvelle commande
+-  Valider une commande
+-  Annuler une commande
+-  Modifier une commande
+-  Lister toutes les commandes
+-  Consulter les détails d'une commande
+-  Statistiques des commandes
 
-## 🛠️ Technologies Utilisées
+##  Technologies Utilisées
 
 - **Java** : Langage de programmation principal
 - **MySQL** : Base de données relationnelle
 - **JDBC** : Connexion à la base de données
 - **Architecture MVC** : Modèle-Vue-Contrôleur avec pattern DAO
 
-## 📋 Prérequis
+##  Prérequis
 
 - Java 8 ou supérieur
 - MySQL 5.7 ou supérieur
 - Driver MySQL Connector/J
 
-## 🔧 Installation
+##  Installation
 
 ### 1. Configuration de la Base de Données
 
@@ -98,7 +98,7 @@ Une application Java complète pour la gestion de commandes avec trois entités 
    java -cp "build/classes:lib/mysql-connector-java-8.0.33.jar" com.gestioncommande.Main
    ```
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 commande_gestion/
@@ -126,7 +126,7 @@ commande_gestion/
 └── README.md
 ```
 
-## 🗄️ Structure de la Base de Données
+##  Structure de la Base de Données
 
 ### Table `clients`
 - `id` : Identifiant unique (AUTO_INCREMENT)
@@ -165,7 +165,7 @@ commande_gestion/
 - `observations` : Observations
 - `date_validation` : Date de validation
 
-## 🎯 Utilisation
+## Utilisation
 
 ### Menu Principal
 L'application propose un menu principal avec les options suivantes :
@@ -180,7 +180,7 @@ L'application propose un menu principal avec les options suivantes :
 2. **Valider la commande** : Vérifier le stock et confirmer la commande
 3. **Suivi** : Consulter l'état et les détails des commandes
 
-## 🔧 Scripts de Maintenance
+##  Scripts de Maintenance
 
 ### Réinitialiser la base de données
 ```bash
@@ -192,7 +192,7 @@ mysql -u root -p < database/reset_database.sql
 mysql -u root -p < database/drop_database.sql
 ```
 
-## 🐛 Dépannage
+##  Dépannage
 
 ### Problèmes de Connexion
 1. Vérifier que MySQL est démarré
@@ -205,14 +205,14 @@ mysql -u root -p < database/drop_database.sql
 2. Vérifier que le driver MySQL est présent
 3. Vérifier la syntaxe des chemins (Windows vs Linux/Mac)
 
-## 📝 Notes de Développement
+##  Notes de Développement
 
 - L'application utilise le pattern DAO (Data Access Object)
 - Les connexions à la base sont gérées de manière centralisée
 - Les erreurs SQL sont capturées et affichées à l'utilisateur
 - L'interface est en mode console avec des menus interactifs
 
-## 🤝 Contribution
+##  Contribution
 
 Pour contribuer au projet :
 1. Fork le repository
@@ -221,6 +221,6 @@ Pour contribuer au projet :
 4. Pousser vers la branche
 5. Ouvrir une Pull Request
 
-## 📄 Licence
+##  Licence
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
