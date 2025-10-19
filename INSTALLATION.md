@@ -246,5 +246,5 @@ Votre installation est réussie si :
 -  L'application se lance sans erreur
 -  Le menu principal s'affiche
 -  Le test de connexion fonctionne
-- ✅ Vous pouvez naviguer dans les menus
-- ✅ Les données de test sont visibles
+-  Vous pouvez naviguer dans les menus
+- Les données de test sont visibles
