@@ -1,14 +1,14 @@
 # Guide d'Installation - Application de Gestion de Commandes
 
-## 📋 Prérequis
+## Prérequis
 
 Avant d'installer l'application, assurez-vous d'avoir :
 
-- ✅ **Java 8 ou supérieur** installé sur votre système
-- ✅ **MySQL 5.7 ou supérieur** installé et démarré
-- ✅ **Driver MySQL Connector/J** téléchargé
+- Java 8 ou supérieur** installé sur votre système
+- MySQL 5.7 ou supérieur** installé et démarré
+- Driver MySQL Connector/J** téléchargé
 
-## 🚀 Installation Pas à Pas
+## Installation Pas à Pas
 
 ### Étape 1 : Vérifier Java
 
@@ -104,7 +104,7 @@ scripts\run.bat
 java -cp "build/classes:lib/mysql-connector-java-8.0.33.jar" com.gestioncommande.Main
 ```
 
-## 🔧 Configuration Avancée
+##  Configuration Avancée
 
 ### Variables d'Environnement
 
@@ -128,7 +128,7 @@ db.username=root
 db.password=votre_mot_de_passe
 ```
 
-## 🐛 Résolution des Problèmes
+## Résolution des Problèmes
 
 ### Erreur : "Driver MySQL non trouvé"
 
@@ -178,7 +178,7 @@ db.password=votre_mot_de_passe
    sudo systemctl start mysql
    ```
 
-## 📊 Test de l'Installation
+## Test de l'Installation
 
 Une fois l'application démarrée, vous devriez voir :
 
@@ -200,7 +200,7 @@ Application initialisée avec succès !
 Choisissez une option :
 ```
 
-## 📝 Données de Test
+##  Données de Test
 
 L'application est livrée avec des données de test :
 
@@ -213,7 +213,7 @@ Vous pouvez les supprimer avec :
 mysql -u root -p < database/reset_database.sql
 ```
 
-## 🔄 Mise à Jour
+##  Mise à Jour
 
 Pour mettre à jour l'application :
 
@@ -230,21 +230,21 @@ Pour mettre à jour l'application :
 
 3. Redémarrer l'application
 
-## 📞 Support
+## Support
 
 Si vous rencontrez des problèmes :
 
 1. Vérifiez les logs d'erreur
 2. Consultez la section "Résolution des Problèmes"
 3. Vérifiez que tous les prérequis sont installés
-4. Testez la connexion à MySQL manuellement
+4. Testez la connexion à MySQL manuellemment
 
-## ✅ Vérification Finale
+## Vérification Finale
 
 Votre installation est réussie si :
 
-- ✅ L'application se lance sans erreur
-- ✅ Le menu principal s'affiche
-- ✅ Le test de connexion fonctionne
+-  L'application se lance sans erreur
+-  Le menu principal s'affiche
+-  Le test de connexion fonctionne
 - ✅ Vous pouvez naviguer dans les menus
 - ✅ Les données de test sont visibles
